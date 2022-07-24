@@ -20,7 +20,12 @@ const toggle = () => {
       />
     </div>
     <div class="select-none m-5">
-      <img class="rounded-full w-25 b-1 b-[#ccc]" src="/avatar.jpg" alt="" />
+      <img
+        id="avatar"
+        class="rounded-full w-25 b-1 b-[#ccc] hover_rotate"
+        src="/avatar.jpg"
+        alt=""
+      />
     </div>
     <h1 class="m-2 title-color font-[cute] font-400 text-9">Hello, I'm MurphyChen.</h1>
   </header>

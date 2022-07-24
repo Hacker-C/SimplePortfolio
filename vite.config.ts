@@ -8,7 +8,22 @@ export default defineConfig({
     vue({
       reactivityTransform: true
     }),
-    Unocss({})
+    Unocss({
+      shortcuts: [
+        {
+          hover_rotate: 'hover:avatar-rotate'
+        }
+      ],
+      rules: [
+        [
+          'avatar-rotate',
+          {
+            transform: 'rotate(666turn)',
+            transition: 'all 60s cubic-bezier(0.34, 0, 0.84, 1) 1s'
+          }
+        ]
+      ]
+    })
   ],
   resolve: {
     alias: {
