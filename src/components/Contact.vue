@@ -16,8 +16,12 @@ const contacts = [
   { icon: 'akar-icons:github-fill', text: 'HackerC', link: 'https://github.com/Hacker-C' },
   { icon: 'ri:qq-line', text: '1507559148', link: '' },
   { icon: 'ri:wechat-2-line', text: 'CG1507559148', link: '' },
-  { icon: 'bi:question-circle', text: 'IDKJS', link: 'http://idk-js.mphy.top' },
-  { icon: 'uit:blogger-alt', text: 'Blog', link: 'https://blog.mphy.top' },
+  {
+    icon: 'ant-design:zhihu-circle-filled',
+    text: 'MurphyChen',
+    link: 'https://www.zhihu.com/people/mphyc'
+  },
+  { icon: 'fluent:book-question-mark-24-filled', text: 'IDKJS', link: 'http://idk-js.mphy.top' },
   { icon: 'bx:book-bookmark', text: 'Notebook', link: 'http://docs.mphy.top' },
   { icon: 'iconoir:profile-circled', text: 'Resume', link: 'http://resume.mphy.top' }
 ]
@@ -38,16 +42,14 @@ const toggle = (index: number) => {
     <li
       v-for="({ icon, text, link }, index) of contacts"
       :key="icon"
-      class="flex flex-column flex-wrap w-13 justify-center h-20"
-    >
+      class="flex flex-column flex-wrap w-13 justify-center h-20">
       <div class="w-8 h-8">
         <Icon
           :icon="icon"
           class="w-[100%] h-[100%] cursor-pointer"
           :class="theme"
           @click="toggle(index)"
-          :style="currentIndex === index ? style : ''"
-        />
+          :style="currentIndex === index ? style : ''" />
       </div>
 
       <template v-if="currentIndex === index">
