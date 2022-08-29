@@ -63,7 +63,7 @@ const toggle = (index: number) => {
     </li>
   </ul>
   <footer class="flex justify-center text-[1em] m-5">
-    <p class="text-color w-150 font-[KaiWen]">
+    <p class="text-color w-150">
       ©MurphyChen 2022 |
       <a class="decoration-none text-color" href="https://beian.miit.gov.cn" target="_blank">
         湘ICP备 2022004296号
