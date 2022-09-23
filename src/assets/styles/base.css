@@ -11,5 +11,5 @@
 
 @font-face {
   font-family: 'Wenkai';
-  src: url('../fonts/Wenkai.ttf');
+  src: url('../fonts/Wenkai.ttf') format('truetype');
 }
