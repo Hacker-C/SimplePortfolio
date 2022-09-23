@@ -7,7 +7,8 @@ import { curInfo, curFont } from '@/utils/info'
     <img id="avatar" class="rounded-full w-25 b-1 b-[#ccc] hover_rotate" src="/avatar.jpg" alt="" />
   </div>
   <h1 class="m-2 title-color font-[Cute] font-400 text-9 text-center">Hello, I'm MurphyChen.</h1>
-  <!-- <span class="w-0 h-0 font-[Wenkai]"></span> -->
+  <span class="w-0 h-0 font-[Wenkai]"></span>
+  <span class="w-0 h-0 font-[Cute]"></span>
   <div class="flex justify-center pl-5 pr-5">
     <ul class="text-color w-150">
       <li
