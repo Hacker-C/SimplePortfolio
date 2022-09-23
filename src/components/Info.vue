@@ -3,7 +3,7 @@ import { curInfo, curFont } from '@/utils/info'
 </script>
 
 <template>
-  <div class="select-none m-5 text-center">
+  <div class="select-none mt-5 text-center">
     <img id="avatar" class="rounded-full w-25 b-1 b-[#ccc] hover_rotate" src="/avatar.jpg" alt="" />
   </div>
   <h1 class="m-2 title-color font-[Cute] font-400 text-9 text-center">Hello, I'm MurphyChen.</h1>
