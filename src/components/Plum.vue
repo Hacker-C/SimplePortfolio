@@ -2,8 +2,7 @@
   <div
     class="fixed top-0 bottom-0 left-0 right-0 pointer-events-none"
     style="z-index: -1"
-    :style="{ backgroundColor: theme }"
-  >
+    :style="{ backgroundColor: theme }">
     <canvas ref="el" width="400" height="400" />
   </div>
 </template>
@@ -11,7 +10,7 @@
 <script setup="props" lang="ts">
 import { Fn, useRafFn, useWindowSize } from '@vueuse/core'
 import { ref, reactive, onMounted, computed } from 'vue'
-import isNight from '@/utils/storage'
+import isNight from '@/utils/theme'
 
 let theme = computed(() => (isNight.value ? '#1e2030' : 'white'))
 

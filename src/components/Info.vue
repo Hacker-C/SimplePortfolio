@@ -1,15 +1,20 @@
 <script setup lang="ts">
-const info = [
-  '目前就读于 NCU，专业计算机科学与技术，专注 Vue3/JS/TS。',
-  '喜欢 星际穿越/夜魔侠/命运石之门/三体/许嵩/周杰伦。',
-  '喜欢写写博客，对互联网充满热情，对编程和计算机技术永葆好奇心。'
-]
+import { curInfo, curFont } from '@/utils/info'
 </script>
 
 <template>
+  <div class="select-none m-5 text-center">
+    <img id="avatar" class="rounded-full w-25 b-1 b-[#ccc] hover_rotate" src="/avatar.jpg" alt="" />
+  </div>
+  <h1 class="m-2 title-color font-[Cute] font-400 text-9 text-center">Hello, I'm MurphyChen.</h1>
   <div class="flex justify-center pl-5 pr-5">
     <ul class="text-color w-150">
-      <li class="list-none lh-10 text-[1.3em] font-[KaiWen]" v-for="item of info">{{ item }}</li>
+      <li
+        class="list-none lh-10 text-[1.3em] font-light"
+        :class="`font-[${curFont}]`"
+        v-for="item of curInfo">
+        {{ item }}
+      </li>
     </ul>
   </div>
 </template>

@@ -3,7 +3,7 @@ import Plum from 'components/Plum.vue'
 import Header from 'components/Header.vue'
 import Info from 'components/Info.vue'
 import Concact from 'components/Contact.vue'
-import isNight from 'utils/storage'
+import isNight from '@/utils/theme'
 
 const textColor = $computed(() => (isNight.value ? '#bbb' : '#555'))
 const titleColor = $computed(() => (isNight.value ? '#fff' : '#000'))

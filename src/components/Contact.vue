@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Icon } from '@iconify/vue'
-import isNight from 'utils/storage'
+import isNight from '@/utils/theme'
 
 let theme = $computed(() =>
   isNight.value ? 'color-gray hover-color-white' : 'color-gray-500 hover-color-black'
