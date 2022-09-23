@@ -14,16 +14,21 @@ let style = $computed(() => {
 
 const contacts = [
   { icon: 'akar-icons:github-fill', text: 'HackerC', link: 'https://github.com/Hacker-C' },
+  {
+    icon: 'fa6-brands:square-twitter',
+    text: 'MurphyChen233',
+    link: 'https://twitter.com/MurphyChen233'
+  },
   { icon: 'ri:qq-line', text: '1507559148', link: '' },
   { icon: 'ri:wechat-2-line', text: 'CG1507559148', link: '' },
   {
     icon: 'ant-design:zhihu-circle-filled',
     text: 'MurphyChen',
     link: 'https://www.zhihu.com/people/mphyc'
-  },
-  { icon: 'fluent:book-question-mark-24-filled', text: 'IDKJS', link: 'http://idk-js.mphy.top' },
-  { icon: 'bx:book-bookmark', text: 'Notebook', link: 'http://docs.mphy.top' },
-  { icon: 'iconoir:profile-circled', text: 'Resume', link: 'http://resume.mphy.top' }
+  }
+  // { icon: 'fluent:book-question-mark-24-filled', text: 'IDKJS', link: 'http://idk-js.mphy.top' },
+  // { icon: 'bx:book-bookmark', text: 'Notebook', link: 'http://docs.mphy.top' },
+  // { icon: 'ion:terminal', text: 'Terminal', link: 'http://term.mphy.me' }
 ]
 
 let currentIndex = $ref(-1)
@@ -62,12 +67,4 @@ const toggle = (index: number) => {
       </template>
     </li>
   </ul>
-  <footer class="flex justify-center text-[1em] m-5">
-    <p class="text-color w-150">
-      ©MurphyChen 2022 |
-      <a class="decoration-none text-color" href="https://beian.miit.gov.cn" target="_blank">
-        湘ICP备 2022004296号
-      </a>
-    </p>
-  </footer>
 </template>
