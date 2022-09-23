@@ -6,10 +6,10 @@
 
 @font-face {
   font-family: 'Cute';
-  src: url('@/assets/fonts/Cute.woff2');
+  src: url('../fonts/Cute.woff2');
 }
 
 @font-face {
   font-family: 'Wenkai';
-  src: url('@/assets/fonts/Wenkai.ttf');
+  src: url('../fonts/Wenkai.ttf');
 }

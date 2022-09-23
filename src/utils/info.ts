@@ -1,4 +1,5 @@
 import { useStorage, createSharedComposable } from '@vueuse/core'
+import { ref } from 'vue'
 
 const cnInfo = [
   '目前就读于 NCU，专业计算机科学与技术，专注 Vue3/JS/TS。',
@@ -22,7 +23,7 @@ enum Font {
 }
 
 const useSharedStorage = createSharedComposable(useStorage)
-const curLang = useSharedStorage('curLang', Lang.EN)
+const curLang = ref(useSharedStorage('curLang', Lang.EN))
 
 export const curInfo = $computed(() => (curLang.value === Lang.EN ? enInfo : cnInfo))
 
