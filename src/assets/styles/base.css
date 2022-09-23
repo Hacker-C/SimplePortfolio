@@ -6,10 +6,11 @@
 
 @font-face {
   font-family: 'Cute';
-  src: url('../fonts/Cute.woff2');
+  src: url('https://cdn.jsdelivr.net/gh/hacker-c/Picture-Bed@main/fonts/Cute.woff2');
 }
 
 @font-face {
   font-family: 'Wenkai';
-  src: url('../fonts/Wenkai.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/hacker-c/Picture-Bed@main/fonts/Wenkai.ttf')
+    format('truetype');
 }
