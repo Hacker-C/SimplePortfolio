@@ -4,13 +4,22 @@
   background-color: #fff;
 }
 
+.a-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.a-link:hover {
+  text-decoration: underline;
+}
+
 @font-face {
   font-family: 'Cute';
-  src: url('https://cdn.jsdelivr.net/gh/hacker-c/Picture-Bed@main/fonts/Cute.woff2');
+  src: url('@/assets/fonts/Cute.woff2');
 }
 
 @font-face {
   font-family: 'Wenkai';
-  src: url('https://cdn.jsdelivr.net/gh/hacker-c/Picture-Bed@main/fonts/Wenkai.ttf')
+  src: url('@/assets/fonts/Wenkai.ttf')
     format('truetype');
 }

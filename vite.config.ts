@@ -21,6 +21,12 @@ export default defineConfig({
             transform: 'rotate(666turn)',
             transition: 'all 60s cubic-bezier(0.34, 0, 0.84, 1) 1s'
           }
+        ],
+        [
+          'text-nowrap',
+          {
+            'white-space': 'nowrap'
+          }
         ]
       ]
     })

@@ -3,16 +3,22 @@ import { curInfo, curFont } from '@/utils/info'
 </script>
 
 <template>
-  <div class="select-none mt-5 text-center">
-    <img id="avatar" class="rounded-full w-25 b-1 b-[#ccc] hover_rotate" src="/avatar.jpg" alt="" />
+  <div class="select-none mt-5">
+    <img id="avatar" class="rounded-full w-20 b-1 b-[#ccc] hover_rotate" src="/avatar.jpg" alt="" />
   </div>
-  <h1 class="m-2 title-color font-[Cute] font-400 text-9 text-center">Hello, I'm MurphyChen.</h1>
+  <div class="title-color font-[Cute] font-400">
+    <h1 class="text-13">Hello.</h1>
+    <h2 class="text-7 mt-4">
+      My name is Murphy Chen.
+    </h2>
+  </div>
+
   <span class="w-0 h-0 font-[Wenkai]"></span>
   <span class="w-0 h-0 font-[Cute]"></span>
-  <div class="flex justify-center pl-5 pr-5">
-    <ul class="text-color w-150">
+  <div class="mt-4 mb-8">
+    <ul class="text-color">
       <li
-        class="list-none lh-10 text-[1.3em] font-light"
+        class="list-none lh-10 text-[1.3em] font-extralight"
         :class="`font-[${curFont}]`"
         v-for="item of curInfo">
         {{ item }}

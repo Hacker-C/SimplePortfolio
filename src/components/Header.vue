@@ -11,8 +11,8 @@ const toggle = () => {
 </script>
 
 <template>
-  <header class="text-center title-color">
-    <div class="flex p-2 pr-3">
+  <header class="text-center title-color fixed top-0 w-[100%]">
+    <div class="flex p-2">
       <Icon
         class="cursor-pointer w-5 h-5"
         :icon="`ion:language`"
