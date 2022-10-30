@@ -15,7 +15,7 @@ import { curInfo, curFont } from '@/utils/info'
 
   <span class="w-0 h-0 font-[Wenkai]"></span>
   <span class="w-0 h-0 font-[Cute]"></span>
-  <div class="mt-4 mb-8">
+  <div class="mt-4">
     <ul class="text-color">
       <li
         class="list-none lh-10 text-[1.3em] font-extralight"

@@ -31,7 +31,7 @@ const toggle = (index: number) => {
 </script>
 
 <template>
-  <h2 class="mt-2 mb-5 font-[Cute] title-color">
+  <h2 class="mt-8 mb-5 font-[Cute] title-color">
     <slot></slot>
   </h2>
   <ul class="flex list-none pl-3">
