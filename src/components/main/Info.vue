@@ -7,9 +7,9 @@ import { curInfo, curFont } from '@/utils/info'
     <img id="avatar" class="rounded-full w-20 b-1 b-[#ccc] hover_rotate" src="/avatar.jpg" alt="" />
   </div>
   <div class="title-color font-[Cute] font-400">
-    <h1 class="text-13">Hello.</h1>
-    <h2 class="text-7 mt-4">
-      My name is Murphy Chen.
+    <h1 class="text-4xl">Hello,</h1>
+    <h2 class="text-3xl mt-4">
+      I'm Murphy Chen.
     </h2>
   </div>
 
@@ -18,7 +18,7 @@ import { curInfo, curFont } from '@/utils/info'
   <div class="mt-4">
     <ul class="text-color">
       <li
-        class="list-none lh-10 text-[1.3em] font-extralight"
+        class="list-none lh-10 text-lg font-extralight"
         :class="`font-[${curFont}]`"
         v-for="item of curInfo">
         {{ item }}
