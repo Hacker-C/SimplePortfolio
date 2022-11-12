@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import ItemsShow from '../common/ItemsShow.vue'
+import ItemsShow from './common/ItemsShow.vue'
 
 const contacts = [
   { icon: 'akar-icons:github-fill', text: 'Hacker-C', link: 'https://github.com/Hacker-C' },

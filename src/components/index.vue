@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import Plum from '@/components/main/Plum.vue'
-import Header from '@/components/header/Header.vue'
-import Info from '@/components/main/Info.vue'
-import Concact from '@/components/main/Contact.vue'
-import Writing from '@/components/main/Writing.vue'
-import Project from '@/components/main/Project.vue'
-import Footer from '@/components/footer/Footer.vue'
+import Plum from '@/components/common/Plum.vue'
+import Header from '@/components/Header.vue'
+import Info from '@/components/Info.vue'
+import Concact from '@/components/Contact.vue'
+import Writing from '@/components/Writing.vue'
+import Project from '@/components/Project.vue'
+import Footer from '@/components/Footer.vue'
 import isNight from '@/utils/theme'
 
 const textColor = $computed(() => (isNight.value ? '#bbb' : '121314'))

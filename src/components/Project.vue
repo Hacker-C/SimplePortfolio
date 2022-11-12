@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Icon } from '@iconify/vue';
-import ProjectCard from '../common/ProjectCard.vue'
+import ProjectCard from './common/ProjectCard.vue'
 
 const projects = [
   {

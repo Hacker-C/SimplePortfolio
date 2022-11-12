@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import LinksShow from '../common/LinksShow.vue'
+import LinksShow from './common/LinksShow.vue'
 
 const projects = [
   {
