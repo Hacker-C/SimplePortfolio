@@ -14,7 +14,7 @@ const titleColor = $computed(() => (isNight.value ? '#fff' : '#000'))
 
 <template>
   <Header />
-  <div class="pl-[15%] pr-[15%] pb-[5%]">
+  <div class="lg:px-[20%] md:px-[15%] pb-[5%] sm:px-[10%] xs:px-[5%] px-[5%]">
     <Info />
     <Project />
     <Writing />
