@@ -9,9 +9,15 @@ export default defineConfig({
       reactivityTransform: true
     }),
     Unocss({
+      theme: {
+        colors: {
+          grayText: '#7a7a7b'
+        }
+      },
       shortcuts: [
         {
           hover_rotate: 'hover:avatar-rotate'
+        
         }
       ],
       rules: [

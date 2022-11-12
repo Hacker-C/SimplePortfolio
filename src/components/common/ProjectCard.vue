@@ -17,7 +17,7 @@ defineProps<{
   >
     <div>
       <h3 class="text-md text-black text-gray-7 title-color">{{ title }}</h3>
-      <p class="text-[#7a7a7b] text-sm mt-2">{{ description }}</p>
+      <p class="text-gray-text text-sm mt-2">{{ description }}</p>
     </div>
     <span class="flex-1"></span>
     <Icon 
