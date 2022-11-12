@@ -3,7 +3,6 @@ import Plum from '@/components/common/Plum.vue'
 import Header from '@/components/Header.vue'
 import Info from '@/components/Info.vue'
 import Concact from '@/components/Contact.vue'
-import Writing from '@/components/Writing.vue'
 import Project from '@/components/Project.vue'
 import Footer from '@/components/Footer.vue'
 import isNight from '@/utils/theme'
@@ -16,9 +15,8 @@ const titleColor = $computed(() => (isNight.value ? '#fff' : '#000'))
   <Header />
   <div class="lg:px-[20%] md:px-[15%] pb-[5%] sm:px-[10%] xs:px-[5%] px-[5%]">
     <Info />
-    <Project />
-    <Writing />
     <Concact />
+    <Project />
     <Footer />
     <Plum />
   </div>

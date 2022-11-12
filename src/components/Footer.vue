@@ -1,5 +1,5 @@
 <template>
-  <footer class="mt-4 text-color">
+  <footer class="mt-5 text-color">
     &copy;MurphyChen 2022
     |
     <a 
