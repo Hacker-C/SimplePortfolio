@@ -1,5 +1,6 @@
-My personal web page.
+# My portfolio.
 
-- Powered by Vite
-- Code with Vue3 & TS
-- Inspired By [jsun969](https://jsun969.cn/) and [antfu](https://antfu.me)
+Link: https://mphy.me
+
+- Built with Vite & Vue3 & TS
+- Inspired By [jsun969](https://jsun969.cn/), [antfu](https://antfu.me) and [Diu](https://ddiu.io/)
