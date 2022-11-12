@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import Container from '@/components/index.vue'
+import Layout from '@/components/Layout.vue'
 </script>
 
 <template>
-  <Container></Container>
+  <Layout></Layout>
 </template>
