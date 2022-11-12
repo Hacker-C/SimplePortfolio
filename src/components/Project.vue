@@ -29,7 +29,7 @@ const projects = [
 <template>
   <div class="mt-5">
     <div class="flex">
-      <h2 class="font-[Cute] my-5 title-color">Projects</h2>
+      <h2 class="font-[Cute] mt-5 title-color text-3xl">Projects</h2>
       <span class="flex-1"></span>
       <a href="https://github.com/Hacker-C" target="_blank" class="decoration-none text-gray-7">
         <Icon icon="akar-icons:arrow-up-right" width="30" class="mt-5"/>
