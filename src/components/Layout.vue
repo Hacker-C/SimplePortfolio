@@ -6,30 +6,22 @@ import Concact from '@/components/Contact.vue'
 import Project from '@/components/Project.vue'
 import Footer from '@/components/Footer.vue'
 import isNight from '@/utils/theme'
-
-const textColor = $computed(() => (isNight.value ? '#bbb' : '121314'))
-const titleColor = $computed(() => (isNight.value ? '#fff' : '#000'))
+import Theme from '@/components/Theme.vue'
 </script>
 
 <template>
   <Header />
   <div class="lg:px-[20%] md:px-[15%] pb-[5%] sm:px-[10%] xs:px-[5%] px-[5%]">
-    <Info />
-    <Concact />
-    <Project />
-    <Footer />
-    <Plum />
+    <Theme>
+      <Info />
+      <Concact />
+      <Project />
+      <Footer />
+      <Plum />
+    </Theme>
   </div>
 </template>
 
 <style>
-* {
-  background-color: transparent;
-}
-.text-color {
-  color: v-bind(textColor);
-}
-.title-color {
-  color: v-bind(titleColor);
-}
+
 </style>

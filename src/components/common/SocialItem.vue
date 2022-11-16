@@ -40,7 +40,7 @@ const toggle = (index: number) => {
       class="font-[Cute] mr-2 mt-2 h-10 relative"
     >
       <a 
-        class="block px-3 py-2 bg-[#f9fafb] decoration-none flex justify-center items-center rounded-md cursor-pointer text-gray-7 hover:text-white"
+        class="block px-3 py-2 item-bg-color decoration-none flex justify-center items-center rounded-md cursor-pointer text-color hover:text-white"
         :class="color"
         :href="link"
         target="_blank"
