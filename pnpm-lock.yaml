@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@iconify/vue': ^3.2.1
-  '@types/node': ^18.0.6
+  '@types/node': ^18.11.9
   '@unocss/reset': ^0.44.5
   '@vitejs/plugin-vue': ^3.0.0
   '@vueuse/core': ^8.9.4
@@ -18,7 +18,7 @@ dependencies:
 
 devDependencies:
   '@iconify/vue': 3.2.1_vue@3.2.41
-  '@types/node': 18.11.7
+  '@types/node': 18.11.9
   '@unocss/reset': 0.44.7
   '@vitejs/plugin-vue': 3.2.0_vite@3.2.1+vue@3.2.41
   typescript: 4.8.4
@@ -175,8 +175,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@types/node/18.11.7:
-    resolution: {integrity: sha512-LhFTglglr63mNXUSRYD8A+ZAIu5sFqNJ4Y2fPuY7UlrySJH87rRRlhtVmMHplmfk5WkoJGmDjE9oiTfyX94CpQ==}
+  /@types/node/18.11.9:
+    resolution: {integrity: sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg==}
     dev: true
 
   /@types/web-bluetooth/0.0.14:
