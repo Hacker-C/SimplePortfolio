@@ -15,11 +15,12 @@
 
 @font-face {
   font-family: 'Cute';
-  src: url('https://cdn.jsdelivr.net/gh/hacker-c/Picture-Bed@main/fonts/Cute.woff2');
+  /* src: url('https://cdn.jsdelivr.net/gh/hacker-c/Picture-Bed@main/fonts/Cute.woff2'); */
+  src: url('../fonts/Cute.woff2');
 }
 
 @font-face {
   font-family: 'Wenkai';
-  src: url('https://cdn.jsdelivr.net/gh/hacker-c/Picture-Bed@main/fonts/Wenkai2.ttf')
-    format('truetype');
+  /* src: url('https://cdn.jsdelivr.net/gh/hacker-c/Picture-Bed@main/fonts/Wenkai2.ttf'); */
+  src: url('../fonts/Wenkai.ttf');
 }
