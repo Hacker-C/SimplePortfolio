@@ -15,6 +15,12 @@ const contacts = [
     color: 'hover:bg-[#00acee]'
   },
   {
+    icon: 'simple-icons:stackoverflow',
+    text: 'MurphyChen',
+    link: 'https://stackoverflow.com/users/12974414/murphychen',
+    color: 'hover:bg-[#f48225]'
+  },
+  {
     icon: 'bx:book-bookmark',
     text: 'Blog',
     link: 'https://blog.mphy.top',
