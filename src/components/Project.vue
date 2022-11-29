@@ -10,17 +10,23 @@ const projects = [
     logo: 'twemoji:laptop'
   },
   {
-    title: 'Can you google',
+    title: 'Can You Google',
     description: 'A toy app to tell you how to google',
     link: 'https://github.com/Hacker-C/can-you-google',
     logo: 'twemoji:thinking-face'
 
   },
   {
-    title: 'My personal site',
+    title: 'My Personal Site',
     description: 'A personal site built by vue3',
     link: 'https://github.com/Hacker-C/mphy.me',
     logo: 'twemoji:man-technologist-medium-skin-tone'
+  },
+  {
+    title: 'WZRY Nodejs Spider',
+    description: '使用 Nodejs 爬取王者荣耀英雄技能信息',
+    link: 'https://github.com/Hacker-C/wzry-skill-spider',
+    logo: 'fluent-emoji-flat:spider'
   }
 ]
 
