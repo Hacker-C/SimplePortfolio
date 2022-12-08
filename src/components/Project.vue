@@ -10,6 +10,12 @@ const projects = [
     logo: 'twemoji:laptop'
   },
   {
+    title: 'React 60s View',
+    description: '基于 React + Deno 的每日 60 秒读懂世界在线应用',
+    link: 'https://github.com/Hacker-C/60s-view',
+    logo: 'twemoji:world-map'
+  },
+  {
     title: 'Can You Google',
     description: 'A toy app to tell you how to google',
     link: 'https://github.com/Hacker-C/can-you-google',
@@ -26,7 +32,7 @@ const projects = [
     title: 'WZRY Nodejs Spider',
     description: '使用 Nodejs 爬取王者荣耀英雄技能信息',
     link: 'https://github.com/Hacker-C/wzry-skill-spider',
-    logo: 'fluent-emoji-flat:spider'
+    logo: 'twemoji:spider-web'
   }
 ]
 
