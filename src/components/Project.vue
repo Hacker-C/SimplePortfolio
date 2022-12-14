@@ -6,19 +6,19 @@ const projects = [
   {
     title: 'Mini Terminal',
     description: 'A mini terminal with simple commands by Vue3',
-    link: 'https://github.com/Hacker-C/vue3-terminal',
+    link: 'https://term.mphy.me',
     logo: 'twemoji:laptop'
   },
   {
     title: 'React 60s View',
     description: '基于 React + Deno 的每日 60 秒读懂世界在线应用',
-    link: 'https://github.com/Hacker-C/60s-view',
+    link: 'https://60s-view.netlify.app',
     logo: 'twemoji:world-map'
   },
   {
     title: 'Can You Google',
     description: 'A toy app to tell you how to google',
-    link: 'https://github.com/Hacker-C/can-you-google',
+    link: 'https://google.mphy.me',
     logo: 'twemoji:thinking-face'
 
   },
@@ -31,7 +31,7 @@ const projects = [
   {
     title: 'WZRY Nodejs Spider',
     description: '使用 Nodejs 爬取王者荣耀英雄技能信息',
-    link: 'https://github.com/Hacker-C/wzry-skill-spider',
+    link: 'http://wzry.mphy.top',
     logo: 'twemoji:spider-web'
   }
 ]
