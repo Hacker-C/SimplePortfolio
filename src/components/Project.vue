@@ -16,6 +16,12 @@ const projects = [
     logo: 'twemoji:world-map'
   },
   {
+    title: '100 React Apps',
+    description: 'Try to finish 100 apps with React',
+    link: 'https://100a.netlify.app',
+    logo: 'twemoji:rocket'
+  },
+  {
     title: 'Can You Google',
     description: 'A toy app to tell you how to google',
     link: 'https://google.mphy.me',
