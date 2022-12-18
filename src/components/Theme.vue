@@ -3,10 +3,10 @@ import isNight from '@/utils/theme'
 
 const textColor = $computed(() => (isNight.value ? '#bbb' : '#121314'))
 const titleColor = $computed(() => (isNight.value ? '#fff' : '#000'))
-const itemColor = $computed(() => isNight.value ? '#373738' : '#f9fafb')
+const itemColor = $computed(() => isNight.value ? '#373738' : '#f5f6f7')
 
-const baseColor = $computed(() => isNight.value ? '#373738' : '#f9fafb')
-const hoverColor = $computed(() => isNight.value ? '#4c4c4c' : '#f3f4f6')
+const baseColor = $computed(() => isNight.value ? '#373738' : '#f5f6f7')
+const hoverColor = $computed(() => isNight.value ? '#4c4c4c' : '#eeeeee')
 </script>
 
 <template>
