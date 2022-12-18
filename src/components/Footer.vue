@@ -3,11 +3,11 @@ import { Icon } from '@iconify/vue';
 </script>
 
 <template>
-  <footer class="mt-5 text-color flex items-center">
-    <a href="https://mphy.me" class="a-link">
+  <footer class="mt-5 flex items-center">
+    <a href="https://mphy.me" class="a-link text-color">
       &copy;MurphyChen
     </a>
-    <span class="mx-2">|</span>
+    <span class="mx-2 text-color">|</span>
     <a 
       href="https://github.com/hacker-c/mphy.me" 
       target="_blank"
