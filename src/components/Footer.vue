@@ -3,7 +3,7 @@ import { Icon } from '@iconify/vue';
 </script>
 
 <template>
-  <footer class="mt-5 flex items-center">
+  <footer class="mt-5 flex items-center font-[Robot]">
     <a href="https://mphy.me" class="a-link text-color">
       &copy;MurphyChen
     </a>

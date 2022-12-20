@@ -16,8 +16,8 @@ export default defineConfig({
       },
       shortcuts: [
         {
-          hover_rotate: 'hover:avatar-rotate'
-        
+          hover_rotate: 'hover:avatar-rotate',
+          ease_dura: 'ease-linear duration-200'
         }
       ],
       rules: [
@@ -45,6 +45,6 @@ export default defineConfig({
       styles: resolve(__dirname, 'src/styles'),
       utils: resolve(__dirname, 'src/utils')
     },
-    extensions: ['.js', '.json', '.tsx'] // 使用路径别名时想要省略的后缀名
+    extensions: ['.js', '.json', '.tsx']
   }
 })
