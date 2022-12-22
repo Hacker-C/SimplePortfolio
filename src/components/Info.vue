@@ -1,9 +1,3 @@
-<script setup lang="ts">
-const curInfo = [
-  
-]
-</script>
-
 <template>
   <div class="select-none mt-5">
     <img id="avatar" class="rounded-full w-20 b-1 b-[#ccc] hover_rotate" src="/avatar.jpg" alt="" />
