@@ -1,6 +1,6 @@
-import { useStorage, createSharedComposable } from '@vueuse/core'
+import { ref } from "vue"
 
-const useSharedStorage = createSharedComposable(useStorage)
-let isNight = useSharedStorage('theme', false)
+const hour = new Date().getHours()
+const isNight = ref(!(hour >= 6 && hour <=18))
 
 export default isNight

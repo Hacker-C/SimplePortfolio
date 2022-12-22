@@ -12,7 +12,7 @@ import { Fn, useRafFn, useWindowSize } from '@vueuse/core'
 import { ref, reactive, onMounted, computed } from 'vue'
 import isNight from '@/utils/theme'
 
-let theme = computed(() => (isNight.value ? '#1e2030' : 'white'))
+let theme = computed(() => (isNight.value ? '#212121' : '#fff'))
 
 const r180 = Math.PI
 const r90 = Math.PI / 2
