@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import { curInfo, curFont } from '@/utils/info'
+const curInfo = [
+  
+]
 </script>
 
 <template>
@@ -13,14 +15,9 @@ import { curInfo, curFont } from '@/utils/info'
     </h2>
   </div>
 
-  <div class="mt-4">
-    <ul class="text-color">
-      <li
-        class="list-none lh-10 text-lg font-extralight ease_dura"
-        :class="`font-[${curFont}]`"
-        v-for="item of curInfo">
-        {{ item }}
-      </li>
-    </ul>
+  <div class="mt-4 text-color list-none lh-10 text-lg font-extralight font-[Cute] ease_dura">
+    Studying at NCU(CN), majoring in CS, focusing on Vite / React / Vue / JS / TS.
+    Interested in Sci-Fi / Movies / Reading / Music / Vae / Mao Buyi.
+    Be full of enthusiasm for The Internet and Frontend technology.
   </div>
 </template>
