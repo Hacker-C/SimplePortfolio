@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import { Icon } from '@iconify/vue';
-</script>
-
 <template>
   <footer class="mt-5 flex items-center font-[Robot]">
     <span class="text-color">MurphyChen &copy; 2022</span>
