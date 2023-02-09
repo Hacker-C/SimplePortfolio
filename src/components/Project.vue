@@ -41,7 +41,7 @@ const projects = [
   {
     title: 'WZRY Nodejs Spider',
     description: '使用 Nodejs 爬取王者荣耀英雄技能信息',
-    link: 'http://wzry.mphy.top',
+    link: 'https://github.com/Hacker-C/wzry-skill-spider',
     logo: 'twemoji:spider-web',
     tags: ['nodejs']
   }

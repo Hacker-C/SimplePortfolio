@@ -22,17 +22,17 @@ const contacts = [
   },
   {
     icon: 'bx:book-bookmark',
-    text: 'Blog',
+    text: 'blog',
     link: 'https://blog.mphy.top',
     color: 'hover:bg-[#3681e6]',
-    desc: 'Blog'
+    desc: 'blog'
   },
   {
     icon: 'fa6-solid:book-skull',
-    text: 'IDK-JS',
-    link: 'https://idk-js.mphy.top/',
+    text: 'idkjs',
+    link: 'https://idkjs.mphy.top/',
     color: 'hover:bg-[#009048]',
-    desc: 'IDK-JS'
+    desc: 'idkjs'
   },
   {
     icon: 'ant-design:zhihu-circle-filled',
