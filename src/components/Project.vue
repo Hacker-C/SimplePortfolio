@@ -13,14 +13,14 @@ const projects = [
   {
     title: 'React 60s View',
     description: '基于 React + Deno 的每日 60 秒读懂世界在线应用',
-    link: 'https://60s-view.netlify.app',
+    link: 'https://60s.mphy.me',
     logo: 'twemoji:world-map',
     tags: ['react', 'deno']
   },
   {
     title: '100 React Apps',
     description: 'Try to finish 100 apps with React',
-    link: 'https://100a.netlify.app',
+    link: 'https://100.mphy.me',
     logo: 'twemoji:rocket',
     tags: ['react', 'unocss']
   },
