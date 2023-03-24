@@ -5,14 +5,14 @@ import ProjectCard from './common/ProjectCard.vue'
 const projects = [
   {
     title: 'Mini Terminal',
-    description: 'A mini terminal with simple commands by Vue3',
+    description: 'A mini terminal with simple commands',
     link: 'https://term.mphy.me',
     logo: 'twemoji:laptop',
     tags: ['vue', 'tailwindcss']
   },
   {
     title: 'React 60s View',
-    description: '基于 React + Deno 的每日 60 秒读懂世界在线应用',
+    description: '每天 60 秒读懂世界',
     link: 'https://60s.mphy.me',
     logo: 'twemoji:world-map',
     tags: ['react', 'deno']
@@ -32,15 +32,15 @@ const projects = [
     tags: ['vue', 'scss']
   },
   {
-    title: 'My Personal Site',
-    description: 'A personal site built by vue3',
+    title: 'Your Personal Site',
+    description: 'A personal page',
     link: 'https://github.com/Hacker-C/mphy.me',
     logo: 'twemoji:man-technologist-medium-skin-tone',
     tags: ['vue', 'unocss']
   },
   {
     title: 'WZRY Nodejs Spider',
-    description: '使用 Nodejs 爬取王者荣耀英雄技能信息',
+    description: '爬取王者荣耀官网英雄技能信息',
     link: 'https://github.com/Hacker-C/wzry-skill-spider',
     logo: 'twemoji:spider-web',
     tags: ['nodejs']
@@ -58,7 +58,7 @@ const projects = [
         <Icon icon="akar-icons:arrow-up-right" width="30" class="mt-5"/>
       </a>
     </div>
-    <div>
+    <div class="flex flex-wrap justify-between">
       <ProjectCard
         v-for="item of projects"
         :title="item.title"

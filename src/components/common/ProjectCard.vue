@@ -12,7 +12,11 @@ defineProps<{
 
 <template>
   <a 
-    class="block rounded-md social-item-bg-color px-4 py-3 my-4 flex font-[Cute] cursor-pointer decoration-none op-90 transition-colors decoration-none ease-linear duration-200" 
+    class="
+      block rounded-md social-item-bg-color xl:w-[46%] w-[100%]
+      p-3 mt-5 flex font-[Cute] cursor-pointer
+      decoration-none op-90 transition-colors ease-linear duration-200
+    "
     :href="link"
     target="_blank"
   >
@@ -25,10 +29,12 @@ defineProps<{
       </div>
       <p class="text-color text-sm mt-2">{{ description }}</p>
     </div>
-    <span class="flex-1"></span>
-    <Icon 
-      :icon="logo"
-      width="47"
-    />
+    <div class="flex-1"></div>
+    <div class="flex justify-center items-center px-2">
+      <Icon 
+        :icon="logo"
+        width="47"
+      />
+    </div>
   </a>
 </template>
