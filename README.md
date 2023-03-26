@@ -12,8 +12,10 @@ Link: https://mphy.me
 
 ```json
 "scripts": {
-  "dev": "node ./src/config/dev.config.js | vite",
-  "build": "node ./src/config/build.config.js && vue-tsc --noEmit && vite build",
+  "watch-config": "node ./src/config/dev.config.js",
+  "gen-config": "node ./src/config/build.config.js",
+  "dev": "pnpm watch-config | vite",
+  "build": "pnpm gen-config && vue-tsc --noEmit && vite build",
   "preview": "vite preview"
 }
 ```
