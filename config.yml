@@ -16,12 +16,19 @@ projects:
       - vue
       - tailwindcss
   - title: React 60s View
-    description: "Read the world in 60 seconds every day"
+    description: "每天 60 秒看懂世界"
     link: https://60s.mphy.me
     logo: twemoji:world-map
     tags:
       - react
       - deno
+  - title: What to Watch
+    description: "制作你的影视推荐清单卡片"
+    link: https://wtw.mphy.me
+    logo: fluent-emoji-flat:card-index
+    tags:
+      - react
+      - ts
   - title: 100 React Apps
     description: Try to finish 100 apps with React
     link: https://100.mphy.me
