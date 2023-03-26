@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { Icon } from '@iconify/vue'
-import meta from '../../config'
-import ProjectCard from './common/ProjectCard.vue'
+import meta from '@/config/config'
+
+import ProjectCard from './ProjectCard/index.vue'
 
 </script>
 

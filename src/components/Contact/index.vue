@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import meta from '../../config'
-import ContactItem, { IContactItem } from './common/ContactItem.vue'
+import meta from '@/config/config'
+import ContactItem, { IContactItem } from './ContactItem/index.vue'
 
 const items = meta.contacts as unknown as  IContactItem[]
 
