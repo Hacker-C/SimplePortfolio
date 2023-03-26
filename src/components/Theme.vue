@@ -2,7 +2,7 @@
 import isNight from '@/utils/theme'
 
 const textColor = $computed(() => (isNight.value ? '#bbb' : '#121314'))
-const titleColor = $computed(() => (isNight.value ? '#fff' : '#000'))
+const titleColor = $computed(() => (isNight.value ? '#fff' : '#121314'))
 const itemColor = $computed(() => isNight.value ? '#373738' : '#f5f6f7')
 
 const baseColor = $computed(() => isNight.value ? '#373738' : '#f5f6f7')

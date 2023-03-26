@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { resolve } from 'path'
 import Unocss from 'unocss/vite'
+import { presetWind } from 'unocss'
 
 export default defineConfig({
   plugins: [
@@ -9,6 +10,9 @@ export default defineConfig({
       reactivityTransform: true
     }),
     Unocss({
+      presets: [
+        presetWind()
+      ],
       theme: {
         colors: {
           grayText: '#7a7a7b'
