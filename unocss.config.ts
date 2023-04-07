@@ -26,7 +26,8 @@ export default defineConfig({
   shortcuts: [
     {
       hover_rotate: 'hover:avatar-rotate',
-      ease_dura: 'ease-linear duration-200'
+      ease_dura: 'ease-linear duration-200',
+      contact_item: 'block px-3 py-2 item-bg-color decoration-none flex justify-center items-center rounded-md cursor-pointer dark:text-white text-black dark:bg-[#373738] bg-[#f5f6f7] ease-linear duration-200'
     }
   ],
   rules: [

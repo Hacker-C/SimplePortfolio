@@ -28,7 +28,7 @@ const handleMouseLeave = (val: string) => iconBgColor.value = val
 
 <template>
   <a
-    class="block px-3 py-2 item-bg-color decoration-none flex justify-center items-center rounded-md cursor-pointer dark:text-white text-black dark:bg-[#373738] bg-[#f5f6f7] hover:text-white ease-linear duration-200"
+    class="contact_item hover:text-[#fff] "
     target="_blank"
     :href="link"
     :style="{ backgroundColor: iconBgColor}"
