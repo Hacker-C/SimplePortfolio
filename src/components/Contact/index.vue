@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import meta from '@/config/config.json'
+import meta from '@/config.json'
 import ContactItem, { IContactItem } from './ContactItem/index.vue'
 import { useDark, useToggle } from '@vueuse/core'
 import { Icon } from '@iconify/vue';
@@ -32,8 +32,8 @@ const handleClick = () => {
     </li>
     <li class="font-[Cute] mr-2 mt-2 h-10 relative">
       <a class="contact_item ease_dura" @click="handleClick">
-        <Icon v-if="isDark" icon="lucide:sun" :width="22" class="ease_dura" />
-        <Icon v-else icon="lucide:moon" :width="22" class="ease_dura" />
+        <Icon v-if="isDark" icon="lucide:sun" :width="22" class="ease_dura text-yellow-400" />
+        <Icon v-else icon="lucide:moon" :width="22" class="ease_dura text-blue-400" />
       </a>
     </li>
   </ul>

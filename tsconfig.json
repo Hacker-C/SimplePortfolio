@@ -21,6 +21,6 @@
     },
     "types": ["vue/ref-macros"]
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/utils/readConfig.js", "src/utils/readConfig.js", "src/config/config.json"],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/utils/readConfig.js", "src/utils/readConfig.js", "src/config.json"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import meta from '@/config/config.json'
+import meta from '@/config.json'
 </script>
 
 <template>
