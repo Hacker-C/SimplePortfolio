@@ -2,6 +2,8 @@
 import { ref } from 'vue';
 import meta from '@/config/config'
 import ContactItem, { IContactItem } from './ContactItem/index.vue'
+import { useDark, useToggle } from '@vueuse/core'
+
 
 const items = meta.contacts as unknown as  IContactItem[]
 
@@ -13,6 +15,13 @@ const toggle = (index: number) => {
     currentIndex.value = index
   }
 }
+
+const isDark = useDark()
+
+const handleClick = () => {
+  const toggleDark = useToggle(isDark)
+  toggleDark()
+}
 </script>
 
 <template>
@@ -23,6 +32,16 @@ const toggle = (index: number) => {
       class="font-[Cute] mr-2 mt-2 h-10 relative"
     >
       <ContactItem :item="item" :currentIndex="currentIndex" :index="index" :onToggle="toggle"/>
+    </li>
+    <li
+      class="font-[Cute] mr-2 mt-2 h-10 relative"
+    >
+      <ContactItem
+        :item="{
+          icon: 'ph:sun-dim-light'
+        }"
+        :onClick="handleClick"
+      />
     </li>
   </ul>
 </template>

@@ -21,7 +21,7 @@ export default defineConfig({
       shortcuts: [
         {
           hover_rotate: 'hover:avatar-rotate',
-          ease_dura: 'ease-linear duration-200'
+          ease_dura: 'ease-linear duration-300'
         }
       ],
       rules: [

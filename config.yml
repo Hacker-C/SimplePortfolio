@@ -50,12 +50,6 @@ projects:
     tags:
       - vue
       - unocss
-  - title: WZRY Nodejs Spider
-    description: "Crawl hero skill information from the official website of King of Glory"
-    link: https://github.com/Hacker-C/wzry-skill-spider
-    logo: twemoji:spider-web
-    tags:
-      - nodejs
 contacts:
   - icon: akar-icons:github-fill
     text: Hacker-C
