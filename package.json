@@ -4,10 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "watch-config": "node ./src/config/dev.config.js",
-    "gen-config": "node ./src/config/build.config.js",
-    "dev": "pnpm watch-config | vite",
-    "build": "pnpm gen-config && vue-tsc --noEmit && vite build",
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -19,7 +17,6 @@
     "@types/node": "^18.11.9",
     "@unocss/reset": "^0.44.5",
     "@vitejs/plugin-vue": "^3.0.0",
-    "js-yaml": "^4.1.0",
     "typescript": "^4.6.4",
     "unocss": "^0.44.7",
     "vite": "^3.0.0",

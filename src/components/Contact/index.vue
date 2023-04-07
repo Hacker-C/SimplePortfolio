@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import meta from '@/config/config'
+import meta from '@/config/config.json'
 import ContactItem, { IContactItem } from './ContactItem/index.vue'
 import { useDark, useToggle } from '@vueuse/core'
 

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted } from 'vue';
-import meta from '@/config/config'
+import meta from '@/config/config.json'
 
 onMounted(() => {
   document.title = meta.profile.name
