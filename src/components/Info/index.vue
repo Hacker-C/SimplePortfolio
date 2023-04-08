@@ -2,6 +2,10 @@
 import { onMounted } from 'vue';
 import meta from '@/config.json'
 
+defineOptions({
+  name: 'Info'
+})
+
 onMounted(() => {
   document.title = meta.profile.name
 })

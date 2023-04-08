@@ -7,9 +7,13 @@
   </div>
 </template>
 
-<script setup="props" lang="ts">
+<script setup lang="ts">
 import { Fn, useRafFn, useWindowSize } from '@vueuse/core'
 import { ref, reactive, onMounted } from 'vue'
+
+defineOptions({
+  name: 'Plum'
+})
 
 const r180 = Math.PI
 const r90 = Math.PI / 2

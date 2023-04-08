@@ -1,5 +1,9 @@
 <script setup lang="ts">
 import meta from '@/config.json'
+
+defineOptions({
+  name: 'Footer'
+})
 </script>
 
 <template>

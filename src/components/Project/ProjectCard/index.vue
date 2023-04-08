@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import { Icon } from '@iconify/vue'
 
+defineOptions({
+  name: 'ProjectCard'
+})
+
 defineProps<{
   title: string,
   description: string

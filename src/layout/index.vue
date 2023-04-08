@@ -1,9 +1,13 @@
 <script setup lang="ts">
-import Plum from '@/components/content/Plum.vue'
+import Plum from '@/components/Plum/index.vue'
 import Info from '@/components/Info/index.vue'
 import Concact from '@/components/Contact/index.vue'
 import Project from '@/components/Project/index.vue'
 import Footer from '@/components/Footer/index.vue'
+
+defineOptions({
+  name: 'Layout'
+})
 </script>
 
 <template>

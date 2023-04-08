@@ -5,6 +5,9 @@ import ContactItem, { IContactItem } from './ContactItem/index.vue'
 import { useDark, useToggle } from '@vueuse/core'
 import { Icon } from '@iconify/vue';
 
+defineOptions({
+  name: 'Contact'
+})
 
 const items = meta.contacts as unknown as IContactItem[]
 

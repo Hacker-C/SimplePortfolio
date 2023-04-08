@@ -1,8 +1,13 @@
 <script setup lang="ts">
+
 import { Icon } from '@iconify/vue'
 import meta from '@/config.json'
 
 import ProjectCard from './ProjectCard/index.vue'
+
+defineOptions({
+  name: 'Project'
+})
 
 </script>
 

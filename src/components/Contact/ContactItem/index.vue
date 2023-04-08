@@ -18,6 +18,10 @@ export interface ContactProps {
   onClick?: () => void
 }
 
+defineOptions({
+  name: 'ContactItem'
+})
+
 let { item, index, currentIndex, onToggle, onClick } = defineProps<ContactProps>()
 const { text, icon, link, color, desc } = item
 
