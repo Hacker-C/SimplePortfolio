@@ -118,6 +118,12 @@
       "color": "#fb7299"
     },
     {
+      "icon": "mdi:youtube",
+      "text": "@mphy",
+      "link": "https://www.youtube.com/@mphy",
+      "color": "#ff0000"
+    },
+    {
       "icon": "ri:qq-line",
       "text": 1507559148,
       "color": "#3abcff"
