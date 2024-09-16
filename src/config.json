@@ -3,18 +3,18 @@
   "profile": {
     "name": "Murphy Chen",
     "desc": [
-      "Working with Java&Vue, focusing on React/Vue/TS.",
+      "Working with Java&JavaScript.",
       "Intrested in music science fiction, including movies, books.",
       "Be passionate about the internet and frontend technology."
     ],
     "github": "Hacker-C"
   },
-  "source": "https://github.com/hacker-c/mphy.me",
+  "source": "https://github.com/hacker-c/mphy.top",
   "projects": [
     {
       "title": "Mini Terminal",
       "description": "A mini terminal with simple commands",
-      "link": "https://term.mphy.me",
+      "link": "https://term.mphy.top",
       "logo": "twemoji:laptop",
       "tags": [
         "vue",
@@ -22,19 +22,9 @@
       ]
     },
     {
-      "title": "React 60s View",
-      "description": "每天 60 秒看懂世界",
-      "link": "https://60s.mphy.me",
-      "logo": "twemoji:world-map",
-      "tags": [
-        "react",
-        "deno"
-      ]
-    },
-    {
       "title": "What to Watch",
       "description": "制作你的影视推荐清单卡片",
-      "link": "https://wtw.mphy.me",
+      "link": "https://wtw.mphy.top",
       "logo": "fluent-emoji-flat:card-index",
       "tags": [
         "react",
@@ -44,7 +34,7 @@
     {
       "title": "100 React Apps",
       "description": "Try to finish 100 apps with React",
-      "link": "https://100.mphy.me",
+      "link": "https://100.mphy.top",
       "logo": "twemoji:rocket",
       "tags": [
         "react",
@@ -54,21 +44,11 @@
     {
       "title": "Can You Google",
       "description": "A toy app to help you search on Google",
-      "link": "https://google.mphy.me",
+      "link": "https://google.mphy.top",
       "logo": "twemoji:thinking-face",
       "tags": [
         "vue",
         "scss"
-      ]
-    },
-    {
-      "title": "Simple Portfolio",
-      "description": "A personal web page",
-      "link": "https://github.com/Hacker-C/mphy.me",
-      "logo": "twemoji:man-technologist-medium-skin-tone",
-      "tags": [
-        "vue",
-        "unocss"
       ]
     }
   ],
@@ -101,7 +81,7 @@
     {
       "icon": "fa6-solid:book-skull",
       "text": "idkjs",
-      "link": "https://idkjs.mphy.top/",
+      "link": "https://idkjs.mphy.top",
       "color": "#009048",
       "desc": "idkjs"
     },
