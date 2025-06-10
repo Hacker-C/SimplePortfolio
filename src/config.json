@@ -12,6 +12,16 @@
   "source": "https://github.com/hacker-c/mphy.top",
   "projects": [
     {
+      "title": "LinkHub",
+      "description": "LinkHub is a central place to organize and share your important links.",
+      "link": "https://linkhub.mphy.top/share/hackerchen",
+      "logo": "twemoji:globe-showing-asia-australia",
+      "tags": [
+        "Next.js",
+        "Supabase"
+      ]
+    },
+    {
       "title": "Mini Terminal",
       "description": "A mini terminal with simple commands",
       "link": "https://term.mphy.top",
